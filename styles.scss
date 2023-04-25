@@ -1,0 +1,29 @@
+@import "./functions";
+/*Inbyggd*/
+body{
+    background-color: rgb(255, 233, 189);  
+   width: 180vh;
+   height: 200vw;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    outline: auto;
+    font-size: 25px;
+    
+}
+
+.mugg{
+    width: 35%;
+    height: 35%;
+    position: fixed;
+    left: 470px;
+    top: 200px;
+
+}
+
+
+

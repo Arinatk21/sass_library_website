@@ -1,0 +1,38 @@
+h1 {
+  display: flex;
+  justify-content: center; /* Centering titeln muggar i mitten på hemsidan */
+}
+
+/*Inbyggd*/
+body {
+  background-color: rgb(255, 233, 189);      /*Background color för att ge färg till hemsidan alltså den är ljus gul   */
+  height: 200vw;        /*Höjden på hemsidan alltså 200 % av visningsbred visas   */
+}
+
+.container {
+  display: flex;      
+  justify-content: center;     /*Detta sätter upp en flex-container med centered innehåll och en vit textfärg och en automatisk ram och en 25px stor textstorlek för alla element med klassen .container. */
+  color: aliceblue;
+  outline: auto;
+  font-size: 25px;
+}
+
+.mugg {
+  width: 35%;
+  display:block
+  height: 35%;
+  position: absolute;
+  left: 470px;
+  top: 200px;
+  margin: 0 auto;
+}/*# sourceMappingURL=styles.css.map */
+
+.mugg {
+  width: 35%;
+  display:block
+  height: 35%;
+  position: absolute;
+  left: 470px;
+  top: 200px;
+  margin: 0  auto;
+}/*# sourceMappingURL=styles.css.map */
